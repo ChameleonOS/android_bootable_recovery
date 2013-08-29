@@ -39,7 +39,6 @@ extern int getprop_main(int argc, char **argv);
 extern int fsck_msdos_main(int argc, char **argv);
 extern int newfs_msdos_main(int argc, char **argv);
 extern int vdc_main(int argc, char **argv);
-extern int pigz_main(int argc, char **argv);
 extern int sdcard_main(int argc, char **argv);
 
 extern int busybox_driver(int argc, char **argv);
@@ -69,7 +68,6 @@ static const struct recovery_cmd recovery_cmds[] = {
     { "fsck_msdos",     fsck_msdos_main },
     { "newfs_msdos",    newfs_msdos_main },
     { "vdc",            vdc_main },
-    { "pigz",           pigz_main },
     { "sdcard",         sdcard_main },
     { NULL, NULL },
 };
